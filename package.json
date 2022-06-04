@@ -1,0 +1,22 @@
+{
+  "name": "cypress-mdc",
+  "version": "1.0.0",
+  "description": "Nicolas Rioseco - Paramo Technologies",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open"
+  },
+  "author": "Nicolás Rioseco",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^9.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-wait-until": "^1.7.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepBaseDir": "cypress/integration",
+    "step_definitions": "cypress/integration/features"
+  }
+}

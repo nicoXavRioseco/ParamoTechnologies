@@ -1,0 +1,9 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "testFiles": "**/*.{feature,features}",
+    "integrationFolder": "cypress/integration/features",
+    "projectId": "without",
+    "baseUrl": "https://demo.casino",
+    "defaultCommandTimeout": 15000,
+    "responseTimeout": 15000
+}
